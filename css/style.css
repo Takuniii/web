@@ -1,0 +1,73 @@
+:root{
+    --main-color:#0B3C5D;
+    --title-bar-color:#F3C677;
+}
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+header{
+    background-color: var(--main-color);
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+.aacsb{
+    width: 100px;
+    height: 100%;
+}
+.title{
+    border-left: 10px solid var(--title-bar-color);
+    font-size: 20px;
+    padding: 5px 0px 5px 10px;
+    margin-left:10px ;
+}
+hr{
+    background-color: gray;
+    border:1px solid gray;
+    margin:0 15px;
+    margin-top: 5px;
+}
+
+.card-list{
+    display: flex;
+    padding: 10px;
+}
+.card-list li{
+    border: 2px solid gray;
+    margin: 0 2.5px;
+}
+.card-list li figcaption{
+    padding: 15px 10px;
+}
+.card_container {
+    padding: 10px 0px; /* for padding sections */
+}
+#second_section{
+    background-color: var(--main-color);
+}
+#second_section .title{
+    color:white;
+}
+#second_section hr{
+    background-color: white;
+    border: 1px solid white;
+}
+.department{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
+}
+.department li{
+    width: 220px;
+    background-color: white;
+    margin: 7.5px;
+    padding: 30px 0px;
+    text-align: center;
+    border-radius: 10px; 
+    font-size: 18px;
+    color:var(--main-color);
+    line-height: 20px;
+}
